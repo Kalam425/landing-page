@@ -1,0 +1,283 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+
+
+*{
+    margin: 0;
+    padding: 0;
+}
+/*^^Helps remove spacing around the entire page^^*/
+
+
+body{
+    font-family: roboto;
+}
+
+.firstsection{
+    background-color: #1F2937;
+}
+
+#header-logo{
+    font-size: 24px;
+    color: #F9FAF8;
+    margin-left: 100px;
+    font-weight: 600;
+
+}
+
+ul{
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+   justify-content:space-evenly;
+}
+.header-link{
+    font-size: 18px;
+    color: #E5E7EB;
+    margin: 10px;
+    text-decoration: underline;
+}
+.header-link:hover{
+    cursor: pointer;
+    font-size: larger;
+    font-weight: bold;
+}
+.navbar{
+    display: flex;
+    flex-direction: row;
+    background-color: #1F2937;
+}
+
+.navbar-left, .navbar-right{
+    width: 50%;
+    justify-content: center;
+    align-items: center;
+}
+
+.navbar-right{
+    background-color: #1F2937;
+}
+.secondsection{
+    background-color: #1F2937;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+  
+}
+
+h1{
+    font-size: 48px;
+    color: #F9FAF8;
+    font-weight: 900 ;
+    margin-bottom: 15px;
+}
+.p-1{
+    font-size: 18px;
+    color: #E5E7EB;
+    margin-bottom: 10px;
+}
+button{
+    background-color: #3882F6;
+}
+
+button:hover{
+    cursor: pointer;
+    font-size: large;
+}
+
+.secondsection-left{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    margin: 150px;
+    margin-left: 250px;
+
+}
+
+.secondsection-right{
+    display: flex;
+    margin: 35px;
+    background-color: #1F2937;
+
+
+}
+img{
+    display: flex;
+    flex-wrap: wrap;
+    margin:85px;
+    margin-left: 30px;
+    width: 350px;
+    height: 250px ;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.sign-up-secondsection{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #F9FAF8;
+    font-weight: 600;
+    width: 130px;
+    padding:10px;
+    border-radius: 16px;
+    
+}
+
+.thirdsection{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 30px;
+    text-align: center;
+  
+}
+
+h2{
+    color:#1F2937 ;
+    font-size: 36px;
+    font-weight: 900;
+    text-align: center;
+    margin: 45px;
+
+}
+.box-section{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 20px;
+}
+.box-subtext{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 15px;
+    align-items:center;
+    color: #1F2937;
+}
+
+.box-1, .box-2, .box-3, .box-4{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 100px;
+    border: 2px solid #3882F6;
+    padding: 90px 80px;
+    border-radius: 20px;
+    background-repeat: no-repeat;
+    background-size:contain;
+}
+
+.box-1 {
+    display: flex;
+    background-image: url(../img/white-t-shirt-stock.jpg);
+    padding-left: 30px;
+
+}
+
+.box-2 {
+    display: flex;
+    background-image: url(../img/red-puffer-jacket-stock.jpg);
+}
+
+.box-3{
+    background-image: url(../img/cargo-shorts-stock.jpg);
+    padding-left: 15px;
+}
+
+.box-4{
+    background-image: url(../img/black-hoodie-stock.jpg);
+    padding-left: 20px;
+}
+
+
+ .p-2{
+    display: flex;
+    color: #1F2937;
+}
+
+.p-2:hover{
+    cursor: pointer;
+    font-size: larger;
+    font-weight: bold;
+}
+a{
+    text-decoration: none;
+}
+a :visited{
+color: red;
+}
+
+.fourthsection{
+    display: flex;
+    flex-direction: column;
+    background-color: #E5E7EB;
+    justify-content: center;
+    align-items: center;
+    padding: 100px;
+    padding-left: 300px;
+    padding-right: 300px;
+}
+
+.p-3{
+    text-align: center;
+    color: #1F2937;
+    font-size: 36px;
+    font-style:italic;
+    font-weight:300;
+    margin-bottom: 15px;
+
+
+}
+
+.p-3_part2 {
+    display: flex;
+    font-size: 18px;
+    font-weight: bold;
+    padding-left: 380px;
+}
+.fifthsection{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #E5E7EB;
+}
+
+.container{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    background-color: #3882F6;
+    color: #E5E7EB;
+    margin: 50px 40px;
+    padding: 50px 40px;
+    gap: 30px;
+    border-radius: 5px;
+}
+
+.sign-up-fifthsection{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #F9FAF8;
+    border-color: #F9FAF8;
+    font-weight: 600;
+    width: 130px;
+    margin-left: 15px;
+    padding:10px;
+    border-radius: 16px;
+}
+
+.footer{
+display: flex;
+justify-content: center;
+align-items: center;
+background-color: #1F2937;
+color:#F9FAF8;
+font-size: 15px;
+padding: 15px;
+
+}
